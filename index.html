@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="icono.png">
+  <title>Little Bakery</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+     <!-- MOBILE NAV -->
+     <div class="mb-nav">
+        <div class="mb-move-item"></div>
+        <div class="mb-nav-item active">
+            <a href="#home">
+                <i class="bx bxs-home"></i>
+            </a>
+        </div>
+        <div class="mb-nav-item">
+            <a href="#about">
+                <i class='bx bxs-coffee-alt'></i>
+            </a>
+        </div>
+        <div class="mb-nav-item">
+            <a href="#food-menu-section">
+                <i class='bx bxs-food-menu'></i>
+            </a>
+        </div>
+        <div class="mb-nav-item">
+            <a href="#testimonial">
+                <i class='bx bxs-comment-detail'></i>
+            </a>
+        </div>
+    </div>
+    <!-- END MOBILE NAV -->
+
+    <!-- BACK TO TOP BTN -->
+    <a href="#home" class="back-to-top">
+        <i class="bx bxs-to-top"></i>
+    </a>
+    <!-- END BACK TO TOP BTN -->
+
+    <!--TOP NAVIGATION-->
+    <div class="nav">
+        <div class="menu-wrap">
+        <a href="#home">
+            <div class="logo">
+            Little | BAKERY
+            </div>
+        </a>
+        <div class="menu">
+            <a href="#home">
+            <div class="home menu-item active">
+                Home
+            </div>
+            </a>
+            <a href="#about">
+            <div class="menu-item">
+            About
+            </div>
+            </a>
+            <a href="#food-menu-section">
+            <div class="menu-item">
+                Menu
+            </div>
+            </a>
+            <a href="#testimonial">
+            <div class="menu-item">
+                Testimonials
+            </div>
+            </a>
+        </div>
+        <div class="right-menu">
+            <div class="cart-btn">
+            <i class='bx bx-cart-alt'></i>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!--END TOP NAVIGATION-->
+
+    <!--SECTION HOME-->
+    <section id="home" class="fullheight bg-img bg-img-fixed"
+    style="background-image: url(images/cake.jpg);">
+                <div class="slogan">
+                    <div class="slogan-button">
+                    <a href="#food-menu-section">Order Now</a>
+                </div>
+            </div>
+    </section>
+    <!--END SECTION HOME-->
+
+    <!-- SECION ABOUT -->
+    <section id="about" class="about fullheight align-items-center" >
+    <div class="container">
+            <div class="row">
+                <div class="col-7 h-xs ">
+                    <img src="images/dip.jpg" alt=""
+                        class="fullwidth left-to-right play-on-scroll">
+                </div>
+                <div class="col-5 col-xs-12 align-items-center right-to-left play-on-scroll">
+                    <div class="about-slogan ">
+                        <h3>
+                            <span class="primary-color">We</span> create <span class="primary-color">delicious</span>
+                            memories for <span class="primary-color">you</span>
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio natus placeat et eos,
+                            dignissimos voluptatem tempora necessitatibus doloribus! Eum qui doloribus odio dolor
+                            tenetur nihil impedit vero magni, distinctio soluta!
+                        </p>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </section>
+    <!-- END SECION ABOUT -->
+
+    <!--FOOD MENU SECTION -->
+    <section id="food-menu-section" class="align-items-center bg-img bg-img-fixed">
+        <div class="container">
+        <div class="food-menu">
+            <div class="background">
+
+                        <h1>
+                            What will you eat today?
+                        </h1>
+
+                        <div class="food-category">
+                                                <button class="active" data-food-type="all" >
+                                                    All food
+                                                </button>
+                                                <button data-food-type="cak">
+                                                    Cakes
+                                                </button>
+                                                <button data-food-type="mini">
+                                                    Mini cakes
+                                                </button>
+                                                <button data-food-type="rasp" >
+                                                    Raspberries
+                                                </button>
+                        </div>
+
+                        <div class="food-item-wrap all">
+                        <div class="food-item cakes">
+                            <div class="item-wrap bottom-up play-on-scroll">
+                                <div class="item-img">
+                                    <div class="img-holder bg-img"
+                                        style="background-image: url('images/cake5.jpg');"></div>
+                                </div>
+                                <div class="item-info">
+                                    <div>
+                                        <h3>
+                                            Lorem ipsum
+                                        </h3>
+                                        <span>
+                                            120$
+                                        </span>
+                                    </div>
+                                    <div class="cart-btn">
+                                        <i class="bx bx-cart-alt"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="food-item mini-cakes">
+                            <div class="item-wrap bottom-up play-on-scroll">
+                                <div class="item-img">
+                                    <div class="img-holder bg-img"
+                                        style="background-image: url('images/cake7.jpeg');"></div>
+                                </div>
+                                <div class="item-info">
+                                    <div>
+                                        <h3>
+                                            Lorem ipsum
+                                        </h3>
+                                        <span>
+                                            120$
+                                        </span>
+                                    </div>
+                                    <div class="cart-btn">
+                                        <i class='bx bx-cart-alt'></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="food-item cakes">
+                            <div class="item-wrap bottom-up play-on-scroll">
+                                <div class="item-img">
+                                    <div class="img-holder bg-img"
+                                        style="background-image: url('images/chocolate.jpg');">
+                                    </div>
+                                </div>
+                                <div class="item-info">
+                                    <div>
+                                        <h3>
+                                            Lorem ipsum
+                                        </h3>
+                                        <span>
+                                            120$
+                                        </span>
+                                    </div>
+                                    <div class="cart-btn">
+                                        <i class='bx bx-cart-alt'></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="food-item cakes">
+                            <div class="item-wrap bottom-up play-on-scroll">
+                                <div class="item-img">
+                                    <div class="img-holder bg-img"
+                                        style="background-image: url('images/cake.jpg');"></div>
+                                </div>
+                                <div class="item-info">
+                                    <div>
+                                        <h3>
+                                            Lorem ipsum
+                                        </h3>
+                                        <span>
+                                            120$
+                                        </span>
+                                    </div>
+                                    <div class="cart-btn">
+                                        <i class='bx bx-cart-alt'></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="food-item cakes">
+                            <div class="item-wrap bottom-up play-on-scroll">
+                                <div class="item-img">
+                                    <div class="img-holder bg-img"
+                                        style="background-image: url('images/cake2.jpg');"></div>
+                                </div>
+                                <div class="item-info">
+                                    <div>
+                                        <h3>
+                                            Lorem ipsum
+                                        </h3>
+                                        <span>
+                                            120$
+                                        </span>
+                                    </div>
+                                    <div class="cart-btn">
+                                        <i class='bx bx-cart-alt'></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="food-item mini-cakes">
+                            <div class="item-wrap bottom-up play-on-scroll">
+                                <div class="item-img">
+                                    <div class="img-holder bg-img"
+                                        style="background-image: url('images/cake8.jpg');"></div>
+                                </div>
+                                <div class="item-info">
+                                    <div>
+                                        <h3>
+                                            Lorem ipsum
+                                        </h3>
+                                        <span>
+                                            120$
+                                        </span>
+                                    </div>
+                                    <div class="cart-btn">
+                                        <i class='bx bx-cart-alt'></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="food-item raspberries">
+                            <div class="item-wrap bottom-up play-on-scroll">
+                                <div class="item-img">
+                                    <div class="img-holder bg-img"
+                                        style="background-image: url('images/dip.jpg');"></div>
+                                </div>
+                                <div class="item-info">
+                                    <div>
+                                        <h3>
+                                            Lorem ipsum
+                                        </h3>
+                                        <span>
+                                            120$
+                                        </span>
+                                    </div>
+                                    <div class="cart-btn">
+                                        <i class='bx bx-cart-alt'></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="food-item mini-cakes">
+                            <div class="item-wrap bottom-up play-on-scroll">
+                                <div class="item-img">
+                                    <div class="img-holder bg-img"
+                                        style="background-image: url('images/cake3.jpg');"></div>
+                                </div>
+                                <div class="item-info">
+                                    <div>
+                                        <h3>
+                                            Lorem ipsum
+                                        </h3>
+                                        <span>
+                                            120$
+                                        </span>
+                                    </div>
+                                    <div class="cart-btn">
+                                        <i class='bx bx-cart-alt'></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>            
+        </div>
+    </div>
+    </section>
+    <!-- END FOOD MENU SECTION -->
+
+    <!-- TESTIMONIAL SECTION -->
+    <section id="testimonial">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-xs-12">
+                    <div class="review-wrap zoom play-on-scroll delay-6">
+                        <div class="review-content">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. U
+                        </div>
+                        <div class="review-info">
+                            <h3>
+                                Lorem Ipsum Dolor
+                            </h3>
+                            <div class="rating">
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-xs-12">
+                    <div class="zoom play-on-scroll delay-6">
+                        <div class="review-wrap">
+                            <div class="review-content">
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, labore nisi non
+                                    molestias, minus laboriosam nostrum impedit iure facilis odio unde quia ad sunt
+                                    corrupti
+                    
+                                </p>
+                            </div>
+                            <div class="review-info">
+                                <h3>
+                                    Lorem Ipsum Dolor
+                                </h3>
+                                <div class="rating">
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-xs-12">
+                    <div class="review-wrap zoom play-on-scroll delay-6">
+                        <div class="review-content">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, labore nisi non
+                                molestias.
+                            </p>
+                        </div>
+                        <div class="review-info">
+                            <h3>
+                                Lorem Ipsum Dolor
+                            </h3>
+                            <div class="rating">
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END TESTIMONIAL SECTION -->
+
+    <!-- FOOTER SECTION -->
+    <section class="footer bg-img" style="background-color: #F04C6A;">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-xs-12">
+                    <h1>
+                        Little Bakery
+                    </h1>
+                    <br>
+                    <p>Email: example@mail.com</p>
+                    <p>Phone: +00 123 456 789</p>
+                    <p>Website: littlebakery.com</p>
+                </div>
+                <div class="col-4 col-xs-12">
+                    <h1>
+                        About us
+                    </h1>
+                    <br>
+                    <p>
+                        <a href="#">
+                            Chefs
+                        </a>
+                    </p>
+                    <p>
+                        <a href="#food-menu-section">
+                            Menu
+                        </a>
+                    </p>
+                    <p>
+                        <a href="#testimonial">
+                            Testimonials
+                        </a>
+                    </p>
+                    <p>
+                        <a href="#">
+                            Lorem ipsum
+                        </a>
+                    </p>
+                </div>
+                <div class="col-4 col-xs-12">
+                    <h1>
+                        Subscribe & media
+                    </h1>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto aspernatur doloremque rerum nam
+                        ullam obcaecati error asperiores temporibus quo eum eaque sed odio vitae accusantium, dolorem
+                        nihil molestiae deserunt maxime!</p>
+                    <br>
+                    <div class="input-group">
+                        <form class="subscription">
+                            <input class="add-email" type="email" placeholder="subscribe@me.now">
+                            <button class="submit-email" type="button">
+                                <span class="before-submit">Subscribe</span>
+                            </button>
+                            <h3 class="after-submit">Thank you for subscribing!</h3>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END FOOTER SECTION -->
+    
+   
+   
+  <script src="app.js"></script>
+</body>
+</html>
